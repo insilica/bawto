@@ -22,7 +22,7 @@ Sysrev users assign millions of labels to documents. The rsr package let's you a
 `get_answers_list(81395)` organizes data from the review (p/81395) into a list of tables.
 
 ```{r get_answer_list, results='hide'}
-tbls <- rsr::get_answers_list(81395) 
+tbls <- rsr::get_answers(81395) |> rsr::list_answers()
 #> list(basic=<tbl>,biomarker=<tbl>,...)
 ```
 
