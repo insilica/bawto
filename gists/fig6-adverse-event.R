@@ -1,18 +1,23 @@
 # This code can only be run by loading the cache first. It is mostly useful as reference
-load("cache.image")
-
 library(tidyverse)
 library(googlesheets4)
 library(patchwork)
+
+cache = new.env()
+load("cache.image",envir=cache)
+
 
 bawto2hrd <- range_read(extractions_sheet,sheet = "bawto_to_hrd",col_types = 'c') %>% 
   select(bawto.article.id,Article.ID=hrd.2.article.id) %>% 
   mutate_at(vars(bawto.article.id,Article.ID),as.numeric)
 
+
 # RSysrev has been replaced by rsr, see r.sysrev.com
+# Unfortunately this code was written with the older version and this variable must be loaded from cache
 # bawtoGL  <- RSysrev::sysrev.getGroupLabelAnswers(70431) %>% lapply(function(df){
 #   df %>% rename(bawto.article.id = Article.ID) %>% left_join(bawto2hrd)
 # })
+bawtoGL  <- cache$bawtoGL
 
 AE.names <- range_read(extractions_sheet,sheet = "short-ae-name",col_types = 'c')
 bawtoAE.names <- range_read(extractions_sheet,sheet = "bawto-pop-int-names",col_types = 'c') %>% 
@@ -127,4 +132,4 @@ C <- ggplot(plotC,aes(x=reorder(rg_name,-order),y=rate,fill=treatment_class)) + 
         ) 
 C
 A + guide_area() + B + C + plot_layout(heights = c(1,2),widths = c(3,1),guides = "collect") + plot_annotation(tag_levels='A')
-ggsave("./figures/adverse_events.svg",width = 20,height=10,units = "in",limitsize = F)
+# ggsave("./figures/adverse_events.svg",width = 20,height=10,units = "in",limitsize = F)
