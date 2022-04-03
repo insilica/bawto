@@ -1,0 +1,44 @@
+---
+title: simple statements for looking up data
+---
+
+```{r setup}
+cache = new.env()
+load.image("cache.image",cache)
+```
+
+# Results 
+
+## Unstudied genes
+```{r}
+library(msigdbr)
+
+gs <- msigdbr(species="Homo sapiens") |> filter(gs_name %in% c(
+  "KEGG_HOMOLOGOUS_RECOMBINATION",
+  "WP_HOMOLOGOUS_RECOMBINATION",
+  "REACTOME_HDR_THROUGH_HOMOLOGOUS_RECOMBINATION_HRR"
+))
+
+# How many HRR genes?
+HRRgenes <- length(unique(gs$ensembl_gene))
+
+# How many HRR genes unmeasured in our trials? 
+# cache$DRD lists all trial measured genes
+newgenes <- gs |> filter(!(human_gene_symbol %in% cache$DRD)) |> 
+  group_by(entrez_gene,human_gene_symbol) |> count()
+```
+
+# Discussion
+
+## Queryable data
+```{r}
+# What was the longest reported median overall survival time in each trial?
+cache$spop_outcome |> filter(outcome_type=="OS") |> 
+  group_by(short_name) |> top_n(1,outcome_value) |> 
+  select(outcome_value,outcome_range,int_biomarker,bm_positive,int_bm_mod,short_name) |> 
+  arrange(outcome_value)
+
+# Which PARP-i had the lowest and highest rate of grade 3+ anemia?
+cache$AE.countDF |> filter(event=="anemia") |> 
+  filter(treatment_class=="PARPi",grade=="grade 3+") |> arrange(rate)
+```

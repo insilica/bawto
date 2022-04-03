@@ -1,0 +1,142 @@
+---
+title: "Oncology Therapies"
+output: html_notebook
+status: skippable
+editor_options: 
+  chunk_output_type: console
+---
+
+# BAWTO clinicaltrials.gov Screening
+Populates ct.gov trial descriptions for screening project at sysrev.com/p/63101.
+
+```{r}
+library(RPostgreSQL)
+library(dplyr)
+library(RSysrev)
+library(foreach)
+
+drv <- dbDriver('PostgreSQL')
+con <- dbConnect(drv, dbname="aact",
+                 host="aact-db.ctti-clinicaltrials.org", port=5432,
+                 user="tomlue", password="s2bfr7acdjHJYh3")
+
+
+dbGetQuery(con,"select distinct(overall_status) FROM studies")
+studies <- dbGetQuery(con,"
+SELECT distinct(s.nct_id) from studies s
+  INNER JOIN conditions c ON c.nct_id = s.nct_id
+  WHERE study_type='Interventional' 
+    AND (overall_status='Completed' OR overall_status='Active, not recruiting')
+    AND c.name ilike '%prostate%';")
+
+
+outcomes <- dbGetQuery(con,"
+SELECT s.nct_id,O.outcome_type,O.measure,O.time_frame,O.description from studies s
+  INNER JOIN conditions c ON c.nct_id = s.nct_id
+  INNER JOIN design_outcomes O ON O.nct_id = s.nct_id
+  WHERE study_type='Interventional' 
+    AND (overall_status='Completed' OR overall_status='Active, not recruiting')
+    AND c.name ilike '%prostate%';") %>% distinct()
+  
+dbDisconnect(con)
+
+getTrialJson <- function(nctvalue,pb = NULL){
+  res <- httr::GET("https://clinicaltrials.gov/api/query/full_studies",query=list(expr=nctvalue,fmt="json"))
+  if(!is.null(pb)){
+    pb$tick()
+  }
+  json     = httr::content(res) %>% jsonlite::parse_json()
+  jsontext = jsonlite::toJSON(json$FullStudiesResponse$FullStudies[[1]]$Study)
+  list(nct=nctvalue,json=jsontext)
+}
+
+pb <- progress::progress_bar$new(total=nrow(studies))
+json <- lapply(studies$nct_id,function(x){Sys.sleep(0.3);getTrialJson(x,pb)})
+```
+
+# Simple screening
+```{r}
+library(htmltools)
+library(jsonlite)
+
+trial2article <- function(trial,pb=NULL){
+  if(is.null(pb)){pb$tick()}
+  url   <- sprintf("https://clinicaltrials.gov/ct2/show/%s",trial$nct)
+  jobj  <- jsonlite::parse_json(trial$json)
+  title <- jobj$ProtocolSection$IdentificationModule$BriefTitle
+  
+  oftitle  <- unlist(jobj$ProtocolSection$IdentificationModule$OfficialTitle)
+  bsumm    <- unlist(jobj$ProtocolSection$DescriptionModule$BriefSummary)
+  dsumm    <- unlist(jobj$ProtocolSection$DescriptionModule$DetailedDescription)
+  eligible <- 
+    lapply(jobj$ProtocolSection$EligibilityModule$EligibilityCriteria,function(x){
+      lines <- unlist(stringr::str_split(as.character(x),"\\n"))
+      breaklines <- purrr::flatten(lapply(lines,function(x){list(x,tags$br())}))
+      tags$p(breaklines)
+    })
+  
+  
+  trialoutcomes <- if(outcomes %>% filter(nct_id == trial$nct) %>% nrow() > 0){
+    outcomes %>% filter(nct_id == trial$nct) %>% 
+    arrange(outcome_type,measure) %>% 
+    apply(1,function(row){
+      otype <- row[["outcome_type"]]
+      measure <- row[["measure"]]
+      time_frame <- row[["time_frame"]]
+      description <- row[["description"]]
+      tags$div(
+        style="margin-left:40px;",
+        tags$strong(ifelse(otype=="primary","Primary Outcome","Secondary Outcome")),
+        tags$br(),
+        tags$span(description),
+        tags$br(),
+        tags$strong("Measure: "),
+        tags$span(measure),
+        tags$br(),
+        tags$strong("time_frame: "),
+        tags$span(time_frame),
+        tags$hr())
+    }) %>% unique()
+  }else{
+    list()
+  }
+  
+  
+  cond <- jobj$ProtocolSection$ConditionsModule$ConditionList
+
+  
+  abstract <- tags$div(
+    tags$h3(tags$a(href=url,trial$nct)),
+    tags$span(oftitle),
+    tags$br(),
+    tags$h3("Brief Summary"),
+    tags$span(bsumm),
+    tags$br(),
+    tags$h3("Detailed Summary"),
+    tags$span(dsumm),
+    tags$br(),
+    tags$h3("Outcomes"),
+    trialoutcomes,
+    
+    tags$h3("Eligibility"),
+    eligible
+    )
+
+  list(`primary-title` = paste(trial$nct,as.character(title),sep=" "),
+       abstract        = as.character(abstract))
+}
+
+pb <- progress::progress_bar$new(total=length(json))
+articles <- lapply(json,function(x){trial2article(x,pb)})
+
+postbody <- jsonlite::toJSON(list(
+  articles     = articles,
+  `api-token`  = rsr:::get_srtoken(),
+  `project-id` = 63101
+  ),auto_unbox = T)
+
+# DO NOT RUN THE NEXT LINE, IT WILL DISRUPT THE SCREENING PROJECT AT 63101
+# httr::POST("https://sysrev.com/web-api/import-article-text",body=postbody)
+```
+
+

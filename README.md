@@ -1,5 +1,5 @@
 # Biomarkers Associated With Therapeutic Outcomes (BAWTO) In Prostate Cancer
-This provides scripts and gists for creating/analyzing data synthesized from prostate cancer publication data. 
+Scripts and gists for creating/analyzing data synthesized from prostate cancer clinical trial publications.
 
 Three sysrev projects were created for this analysis:
 
@@ -9,15 +9,18 @@ Three sysrev projects were created for this analysis:
 
 # Directory structure
 
-**1. ct.gov meoto trial screening**  
-Finds/Uploads ct.gov trials to screen in sysrev.com/p/63101
-
-**2. analyze ct.gov meoto sysrev**  
-Analyze the ct.gov data for trials screened in (1)
-
-
-# Roadmap
-1. Transform figure code into gists
-2. push gists
-3. create tests confirming that gists work
-4. (optional) upload code used to set up reviews.
+- **/figures** - Publication figures
+- **/setup-scripts** - Scripts to set up / analyze sysrev projects
+  -  **/1. find-ctgov-trials.rmd**  
+  A notebook to populate sysrev.com/p/63101 w/ mCRPC biomaker clinical trials from clinicaltrials.gov.
+  -  **/2. big-analysis-notebook/big-analysis-notebook.rmd**
+  A notebook to analyze all sysrev data. Some dependencies are broken, results are stored in `./cache.image`
+- **/figure-scripts** scripts to build each publication image
+  - **fig1-prisma.R** - prisma diagram for every project
+  - **fig2-timeline.R** -  clinical trial timelines
+  - **fig3-heatmap.Rmd** - heatmap shows which trials use which biomarkers
+  - **fig4-HR-treemap.R** - plotly treemap for hazard ratios
+  - **fig5-psa-forest.R** - forest plot for PSA and PFS metrics
+  - **fig6-adverse-event.R** - adverse event conditional distribution plots
+  - **fig7-models.Rmd** - model based partitioning
+- `/cache.image` - some of the dependencies in the big-analysis-notebook are broken. This cache was created to make image generation in `figure-scripts` easily reproducible.

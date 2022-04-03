@@ -1,0 +1,13 @@
+name	abbv
+abiraterone acetate+prednisone or enzalutamide	AAP or ENZ
+abiraterone acetate+olaparib+prednisone	AAP + Ola
+abiraterone acetate+prednisone	AAP
+olaparib	Ola
+enzalutamide	ENZ
+prednisone+abiraterone acetate+veliparib	AAP + Veli
+veliparib+abiraterone acetate+prednisone	AAP + Veli
+olaparib+abiraterone acetate+prednisone or prednisolone	AAP + Ola
+enzalutamide or prednisone+abiraterone acetate	AAP or ENZ
+enzalutamide or olaparib or prednisone+abiraterone acetate	AAP or ENZ or Ola
+abiraterone acetate+placebo+prednisone	AAP + placebo
+abiraterone acetate+placebo+prednisone or prednisolone	AAP + placebo

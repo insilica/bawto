@@ -1,0 +1,288 @@
+Article ID,User ID,User Name,arm,disease,pop_modifier,treatment,biomarker,biomarker_modifier,biomarker_positive,num_patients,outcome_type,num_response,duration_months,fig_table_selection
+11781738,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed",niraparib,"!BRCA1,!BRCA2,ATM,FANCA,PALB2,CHEK2,BRIP1,HDAC2",altered biallelic,positive,16,ctc reduction,5,23.7,table 1
+11781738,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed",niraparib,"BRCA1,BRCA2",altered biallelic,positive,23,RECIST/PCWG3 CR+PR|||psa response|||ctc reduction,15,23.7,table 1
+11781738,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed",niraparib,"!BRCA1,!BRCA2,ATM,FANCA,PALB2,CHEK2,BRIP1,HDAC2",altered biallelic,positive,9,RECIST/PCWG3 CR+PR,1,23.7,table 1
+11781738,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed",niraparib,"!BRCA1,!BRCA2,ATM,FANCA,PALB2,CHEK2,BRIP1,HDAC2",altered biallelic,positive,16,psa response,1,23.7,table 1
+11781738,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed",niraparib,"!BRCA1,!BRCA2,ATM,FANCA,PALB2,CHEK2,BRIP1,HDAC2",altered biallelic,positive,16,RECIST/PCWG3 CR+PR|||psa response|||ctc reduction,5,23.7,table 1
+11781738,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed",niraparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,CHEK2,BRIP1,HDAC2",altered biallelic,positive,39,psa response,14,23.7,table 1
+11781738,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed",niraparib,"BRCA1,BRCA2",altered biallelic,positive,23,ctc reduction,11,23.7,table 1
+11781738,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed",niraparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,CHEK2,BRIP1,HDAC2",altered biallelic,positive,39,RECIST/PCWG3 CR+PR|||psa response|||ctc reduction,20,23.7,table 1
+11781738,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed",niraparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,CHEK2,BRIP1,HDAC2",altered biallelic,positive,22,RECIST/PCWG3 CR+PR,6,23.7,table 1
+11781738,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed",niraparib,"BRCA1,BRCA2",altered biallelic,positive,13,RECIST/PCWG3 CR+PR,5,23.7,table 1
+11781738,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed",niraparib,"BRCA1,BRCA2",altered biallelic,positive,23,psa response,13,23.7,table 1
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA1,BRCA2",unknown zygosity,positive,35,RECIST_CR|||RECIST_PR,13,31.5,"table S7,fig S7"
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA1,BRCA2",altered germline,positive,21,RECIST_CR|||RECIST_PR,9,31.5,"table S6,fig S7"
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA1,BRCA2",homozygous loss,positive,21,psa response,17,31.5,fig S7
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA1,BRCA2",altered monoallelic,positive,36,psa response,27,31.5,fig S7
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA1,BRCA2",altered somatic,positive,41,RECIST_CR|||RECIST_PR,18,31.5,"table S6,fig S7"
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA1,BRCA2",altered,positive,62,RECIST_CR|||RECIST_PR,27,31.5,fig 2
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA1,!BRCA2",altered,positive,13,psa response,2,31.5,fig 2
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA1,BRCA2",altered somatic,positive,71,psa response,36,31.5,"table S6,fig S7"
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA1,BRCA2",altered monoallelic,positive,4,RECIST_CR|||RECIST_PR,2,31.5,"table S7,fig S7"
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA1,!BRCA2",altered,positive,9,RECIST_CR|||RECIST_PR,3,31.5,fig 2
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA1,BRCA2",homozygous loss,positive,15,RECIST_CR|||RECIST_PR,9,31.5,fig S7
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA1,BRCA2",altered biallelic,positive,9,psa response,1,31.5,fig S7
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA1,BRCA2",unknown zygosity,positive,70,psa response,35,31.5,"table S7,fig S7"
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA2,!BRCA1",altered,positive,53,RECIST_CR|||RECIST_PR,24,31.5,fig 2
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA2,!BRCA1",altered,positive,102,psa response,61,31.5,fig 2
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA1,BRCA2",altered germline,positive,44,psa response,27,31.5,"table S6,fig S7"
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA1,BRCA2",altered,positive,115,psa response,63,31.5,fig 2
+11781739,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",rucaparib,"BRCA1,BRCA2",altered biallelic,positive,23,RECIST_CR|||RECIST_PR,12,31.5,"table S7,fig S7"
+11781740,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",talazoparib,"BRCA1,BRCA2",altered,positive,41,RECIST/PCWG3 CR+PR,18,6,table 1
+11781740,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",talazoparib,"CHEK2,FANCA,MLH1,MRE11A,NBN,PALB2,RAD51C,ATR",altered,positive,18,RECIST/PCWG3 CR+PR,0,6,table 1
+11781740,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",talazoparib,ATM,altered,positive,18,RECIST/PCWG3 CR+PR|||psa response|||ctc reduction,5,6,table 1
+11781740,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",talazoparib,PALB2,altered,positive,3,RECIST/PCWG3 CR+PR,1,6,table 1
+11781740,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",talazoparib,"CHEK2,FANCA,MLH1,MRE11A,NBN,PALB2,RAD51C,ATR",altered,positive,18,RECIST/PCWG3 CR+PR|||psa response|||ctc reduction,2,6,table 1
+11781740,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",talazoparib,"ATM,ATR,BRCA1,BRCA2,CHEK2,FANCA,MLH1,MRE11A,NBN,PALB2,RAD51C",altered,positive,86,RECIST/PCWG3 CR+PR|||psa response|||ctc reduction,44,6,table 1
+11781740,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",talazoparib,ATM,altered,positive,17,RECIST/PCWG3 CR+PR,2,6,table 1
+11781740,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",talazoparib,"BRCA1,BRCA2",altered,positive,46,RECIST/PCWG3 CR+PR|||psa response|||ctc reduction,35,6,table 1
+11781740,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",talazoparib,"ATM,ATR,BRCA1,BRCA2,CHEK2,FANCA,MLH1,MRE11A,NBN,PALB2,RAD51C",altered,positive,75,RECIST/PCWG3 CR+PR,21,6,table 1
+11781740,139,tom,single,mCRPC,"prior-taxane,prior-AR-directed-therapy",talazoparib,PALB2,altered,positive,4,RECIST/PCWG3 CR+PR|||psa response|||ctc reduction,2,6,table 1
+11781741,139,tom,A,mcrpc,"prior-docetaxel,no-prior-AR-directed",AAP + olaparib,none specified,NA,,30,ctc reduction,15,30,page 982
+11781741,139,tom,A,mcrpc,"prior-docetaxel,no-prior-AR-directed",AAP + olaparib,none specified,NA,,71,psa response,34,30,page 982
+11781741,139,tom,B,mcrpc,"prior-docetaxel,no-prior-AR-directed",AAP + placebo,none specified,NA,,71,second radiographic progression,45,30,page 981
+11781741,139,tom,A,mcrpc,"prior-docetaxel,no-prior-AR-directed",AAP + olaparib,none specified,NA,,71,second radiographic progression,37,30,page 981
+11781741,139,tom,B,mcrpc,"prior-docetaxel,no-prior-AR-directed",AAP + placebo,none specified,NA,,71,psa response,30,30,page 982
+11781741,139,tom,A,mcrpc,"prior-docetaxel,no-prior-AR-directed",AAP + olaparib,none specified,NA,,71,death,43,30,"page 979,page 981"
+11781741,139,tom,A,mcrpc,"prior-docetaxel,no-prior-AR-directed",AAP + olaparib,"ATM,BARD1,BRCA1,BRCA2,BRIP1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L",altered,positive,11,radiographic progression,8,30,page 981
+11781741,139,tom,B,mcrpc,"prior-docetaxel,no-prior-AR-directed",AAP + placebo,"ATM,BARD1,BRCA1,BRCA2,BRIP1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L",altered,negative,20,radiographic progression,17,30,page 981
+11781741,139,tom,B,mcrpc,"prior-docetaxel,no-prior-AR-directed",AAP + placebo,none specified,NA,,71,death,45,30,"page 979,page 981"
+11781741,139,tom,A,mcrpc,"prior-docetaxel,no-prior-AR-directed",AAP + olaparib,"ATM,BARD1,BRCA1,BRCA2,BRIP1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L",altered,partially characterized,45,radiographic progression,30,30,page 981
+11781741,139,tom,B,mcrpc,"prior-docetaxel,no-prior-AR-directed",AAP + placebo,"ATM,BARD1,BRCA1,BRCA2,BRIP1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L",altered,partially characterized,41,radiographic progression,30,30,page 981
+11781741,139,tom,A,mcrpc,"prior-docetaxel,no-prior-AR-directed",AAP + olaparib,none specified,NA,,71,radiographic progression,46,30,page 980
+11781741,139,tom,B,mcrpc,"prior-docetaxel,no-prior-AR-directed",AAP + placebo,"ATM,BARD1,BRCA1,BRCA2,BRIP1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L",altered,positive,10,radiographic progression,7,30,page 981
+11781741,139,tom,B,mcrpc,"prior-docetaxel,no-prior-AR-directed",AAP + placebo,none specified,NA,,28,ctc reduction,13,30,page 982
+11781741,139,tom,B,mcrpc,"prior-docetaxel,no-prior-AR-directed",AAP + placebo,none specified,NA,,71,radiographic progression,54,30,page 980
+11781741,139,tom,A,mcrpc,"prior-docetaxel,no-prior-AR-directed",AAP + olaparib,"ATM,BARD1,BRCA1,BRCA2,BRIP1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L",altered,negative,15,radiographic progression,8,30,page 981
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,RB1,altered,positive,4,radiographic response,2,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,TP53,altered,positive,15,psa response,9,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,positive,16,radiographic response,14,36,table 3
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,TP53,altered,negative,22,radiographic response,15,36,table S6
+11781742,139,tom,A,mcrpc,prior-adt,AAP,ETS,fusion,negative,10,radiographic response,5,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,WNT pathway,altered,negative,26,psa response,15,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,RB1,altered,negative,71,psa response,46,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,ETS,altered,negative,24,psa response,17,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,WNT pathway,altered,negative,68,psa response,44,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,WNT pathway,altered,negative,52,radiographic response,28,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,WNT pathway,altered,positive,4,radiographic response,3,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,ETS,fusion,positive,14,radiographic response,6,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,SPOP,altered,positive,4,radiographic response,3,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,negative,60,psa response,34,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,SPOP,altered,positive,5,psa response,4,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,ZFHX3,altered,negative,74,psa response,49,36,table S5
+11781742,139,tom,A,mcrpc,prior-adt,AAP,PIK3CA pathway,altered,negative,13,radiographic response,6,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,AR amplified 41,altered,positive,22,psa response,16,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,negative,26,psa response,12,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,TP53,mutated,negative,47,psa response,32,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,SPOP,altered,negative,56,radiographic response,28,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,CHD1,altered,positive,4,psa response,3,36,table S5
+11781742,139,tom,A,mcrpc,prior-adt,AAP,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,positive,5,radiographic response,4,36,table 3
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,TP53,altered,positive,24,radiographic response,10,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,positive,20,psa response,18,36,table 3
+11781742,139,tom,A,mcrpc,prior-adt,AAP,WNT pathway,altered,negative,20,radiographic response,11,36,table S6
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,ETS,fusion,positive,27,radiographic response,14,36,table 2
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,ETS,fusion,positive,41,psa response,25,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,positive,13,psa response,12,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,ETS,altered,positive,23,psa response,17,36,table S6
+11781742,139,tom,A,mcrpc,prior-adt,AAP,ETS,fusion,positive,25,radiographic response,12,36,table 2
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,negative,34,psa response,22,36,table 3
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,negative,25,radiographic response,10,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,PIK3CA pathway,altered,positive,29,radiographic response,13,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,AR amplified 41,altered,positive,19,psa response,9,36,table S6
+11781742,139,tom,A,mcrpc,prior-adt,AAP,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,negative,19,radiographic response,7,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,PIK3CA pathway,altered,positive,15,psa response,6,36,table S6
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,AR amplified 41,altered,negative,18,radiographic response,11,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,RB1,altered,negative,56,radiographic response,29,36,table S5
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,negative,25,radiographic response,10,36,table 3
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,negative,60,psa response,34,36,table 3
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,WNT pathway,altered,negative,32,radiographic response,17,36,table S6
+11781742,139,tom,A,mcrpc,prior-adt,AAP,background,NA,,72,psa response,46,36,table 2
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,ZFHX3,altered,positive,5,radiographic response,3,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,WNT pathway,altered,positive,8,radiographic response,3,36,table S5
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,PTEN,altered,negative,19,radiographic response,13,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,TP53,mutated,positive,33,psa response,20,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,RB1,altered,positive,9,psa response,6,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,PTEN,altered,positive,14,psa response,5,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,TP53,altered,negative,36,radiographic response,21,36,table S5
+11781742,139,tom,A,mcrpc,prior-adt,AAP,ETS,fusion,positive,47,psa response,31,36,table 2
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,SPOP,altered,negative,75,psa response,48,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,PIK3CA pathway,altered,negative,31,radiographic response,18,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,positive,20,psa response,18,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,TP53,altered,positive,18,psa response,11,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,WNT pathway,altered,negative,42,psa response,29,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,AR amplified 41,altered,positive,11,radiographic response,4,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,TP53,altered,positive,14,radiographic response,5,36,table S6
+11781742,139,tom,A,mcrpc,prior-adt,AAP,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,positive,7,psa response,6,36,table 3
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,ZFHX3,altered,positive,6,psa response,3,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,PIK3CA pathway,altered,negative,18,psa response,12,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,PTEN,altered,negative,19,psa response,13,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,TP53,altered,positive,10,radiographic response,5,36,table S6
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,background,NA,positive,46,radiographic response,24,36,table 2
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,AR amplified 41,altered,negative,25,psa response,18,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,PTEN,altered,positive,17,radiographic response,7,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,PIK3CA pathway,altered,negative,41,psa response,30,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,WNT pathway,altered,positive,5,psa response,5,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,PTEN,altered,negative,32,radiographic response,19,36,table S5
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,background,NA,,76,psa response,55,36,table 2
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,PTEN,altered,positive,20,psa response,12,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,AR,altered,positive,29,radiographic response,13,36,table S5
+11781742,139,tom,A,mcrpc,prior-adt,AAP,ETS,fusion,positive,15,radiographic response,6,36,table 2
+11781742,139,tom,A,mcrpc,prior-adt,AAP,TP53,altered,negative,14,radiographic response,6,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,CHD1,altered,positive,3,radiographic response,2,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,WNT pathway,altered,positive,12,psa response,8,36,table S5
+11781742,139,tom,A,mcrpc,prior-adt,AAP,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,negative,19,radiographic response,7,36,table 3
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,ETS,fusion,negative,29,radiographic response,16,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,ZFHX3,altered,negative,55,radiographic response,28,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,WNT pathway,altered,positive,7,psa response,3,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,ETS,fusion,negative,39,psa response,27,36,table S5
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,ETS,fusion,positive,19,radiographic response,10,36,table 2
+11781742,139,tom,A,mcrpc,prior-adt,AAP,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,negative,26,psa response,12,36,table 3
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,TP53,altered,negative,18,psa response,9,36,table S6
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,positive,13,psa response,12,36,table 3
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,ETS,fusion,positive,31,radiographic response,15,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,ETS,altered,positive,17,radiographic response,9,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,PTEN,mutated,positive,34,psa response,17,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,negative,44,radiographic response,17,36,table S5
+11781742,139,tom,A,mcrpc,prior-adt,AAP,PTEN,altered,negative,13,radiographic response,6,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,AR,altered,positive,41,psa response,25,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,positive,16,radiographic response,14,36,table S5
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,positive,11,radiographic response,10,36,table 3
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,positive,7,psa response,6,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,PIK3CA pathway,altered,negative,23,psa response,18,36,table S6
+11781742,139,tom,A,mcrpc,prior-adt,AAP,ETS,fusion,positive,25,psa response,15,36,table 2
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,positive,11,radiographic response,10,36,table S6
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,ETS,fusion,positive,49,psa response,36,36,table 2
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,CHD1,altered,negative,76,psa response,49,36,table S5
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,PIK3CA pathway,altered,negative,18,radiographic response,12,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,negative,34,psa response,22,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,PIK3CA pathway,altered,positive,18,radiographic response,8,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,PIK3CA pathway,altered,positive,11,radiographic response,5,36,table S6
+11781742,139,tom,A,mcrpc,prior-adt,AAP,AR amplified 41,altered,negative,13,radiographic response,7,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,negative,44,radiographic response,17,36,table 3
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,PTEN,altered,positive,11,radiographic response,5,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,"BRCA1,BRCA2,ATM,FANCA,PALB2,RAD51B,RAD51C",altered biallelic,positive,5,radiographic response,4,36,table S6
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,ETS,fusion,positive,27,psa response,19,36,table 2
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,TP53,altered,negative,29,psa response,23,36,table S6
+11781742,139,tom,A,mcrpc,prior-adt,AAP,background,NA,positive,40,radiographic response,18,36,table 2
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,PTEN,mutated,negative,46,psa response,35,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,AR,altered,negative,31,radiographic response,18,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,CHD1,altered,negative,57,radiographic response,29,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,AR amplified 41,altered,positive,18,radiographic response,9,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,PTEN,altered,positive,28,radiographic response,12,36,table S5
+11781742,139,tom,B,mcrpc,prior-adt,AAP + veliparib,ETS,altered,negative,19,radiographic response,11,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,ETS,fusion,negative,15,psa response,10,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,AR amplified 41,altered,negative,14,psa response,9,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,PTEN,altered,negative,27,psa response,22,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP + veliparib,PIK3CA pathway,altered,positive,24,psa response,16,36,table S6
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,AR,altered,negative,39,psa response,27,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP or AAP + veliparib,PIK3CA pathway,altered,positive,39,psa response,22,36,table S5
+11781742,139,tom,A+B,mcrpc,prior-adt,AAP,ETS,fusion,positive,18,psa response,8,36,table S6
+11781743,139,tom,single,mcrpc,"prior-taxane,prior-AR-directed",rucaparib,"CHEK2,!BRCA1,!BRCA2",altered,positive,5,radiographic progression,5,12,table 2
+11781743,139,tom,single,mcrpc,"prior-taxane,prior-AR-directed",rucaparib,"ATM,!BRCA1,!BRCA2",altered,positive,18,radiographic progression,15,12,table 2
+11781743,139,tom,single,mcrpc,"prior-taxane,prior-AR-directed",rucaparib,"NBN,FANCA,BRIP1,PALB2,RAD51,RAD51B,RAD54L,!BRCA1,!BRCA2",altered,positive,11,radiographic progression,5,6,table 2
+11781743,139,tom,single,mcrpc,"prior-taxane,prior-AR-directed",rucaparib,"CHEK2,!BRCA1,!BRCA2",altered,positive,8,radiographic progression,5,6,table 2
+11781743,139,tom,single,mcrpc,"prior-taxane,prior-AR-directed",rucaparib,"CDK12,!BRCA1,!BRCA2",altered,positive,14,radiographic progression,13,12,table 2
+11781743,139,tom,single,mcrpc,"prior-taxane,prior-AR-directed",rucaparib,"ATM,!BRCA1,!BRCA2",altered,positive,49,psa response,2,24,table 2
+11781743,139,tom,single,mcrpc,"prior-taxane,prior-AR-directed",rucaparib,"ATM,!BRCA1,!BRCA2",altered,positive,19,RECIST/PCWG3 CR+PR,2,24,table 2
+11781743,139,tom,single,mcrpc,"prior-taxane,prior-AR-directed",rucaparib,"NBN,FANCA,BRIP1,PALB2,RAD51,RAD51B,RAD54L,!BRCA1,!BRCA2",altered,positive,14,RECIST/PCWG3 CR+PR,4,24,table 2
+11781743,139,tom,single,mcrpc,"prior-taxane,prior-AR-directed",rucaparib,"CDK12,!BRCA1,!BRCA2",altered,positive,15,psa response,1,24,table 2
+11781743,139,tom,single,mcrpc,"prior-taxane,prior-AR-directed",rucaparib,"ATM,!BRCA1,!BRCA2",altered,positive,42,radiographic progression,30,6,table 2
+11781743,139,tom,single,mcrpc,"prior-taxane,prior-AR-directed",rucaparib,"CDK12,!BRCA1,!BRCA2",altered,positive,15,radiographic progression,12,6,table 2
+11781743,139,tom,single,mcrpc,"prior-taxane,prior-AR-directed",rucaparib,"CHEK2,!BRCA1,!BRCA2",altered,positive,12,psa response,2,24,table 2
+11781743,139,tom,single,mcrpc,"prior-taxane,prior-AR-directed",rucaparib,"CDK12,!BRCA1,!BRCA2",altered,positive,10,RECIST/PCWG3 CR+PR,0,24,table 2
+11781743,139,tom,single,mcrpc,"prior-taxane,prior-AR-directed",rucaparib,"NBN,FANCA,BRIP1,PALB2,RAD51,RAD51B,RAD54L,!BRCA1,!BRCA2",altered,positive,8,radiographic progression,5,12,table 2
+11781743,139,tom,single,mcrpc,"prior-taxane,prior-AR-directed",rucaparib,"FANCA,BRIP1,PALB2,RAD51,RAD51B,RAD54L,!BRCA1,!BRCA2,NBN",altered,positive,14,psa response,5,24,table 2
+11781743,139,tom,single,mcrpc,"prior-taxane,prior-AR-directed",rucaparib,"CHEK2,!BRCA1,!BRCA2",altered,positive,9,RECIST/PCWG3 CR+PR,1,24,table 2
+11781744,139,tom,single,mCRPC,prior-AR-directed,enzalutamide + pembrolizumab,"BRCA2,ATM,FANCA,CHEK2,BRCA1,PALB2,HDAC2,RAD51,MLH3,ERCC3,MRE11,NBN,BARD1,BRIP1,CDK12,RAD51B,RAD51C,RAD51D,RAD54L",altered,positive,4,psa response,1,38,table 2
+11781744,139,tom,single,mCRPC,prior-AR-directed,enzalutamide + pembrolizumab,"BRCA2,ATM,FANCA,CHEK2,BRCA1,PALB2,HDAC2,RAD51,MLH3,ERCC3,MRE11,NBN,BARD1,BRIP1,CDK12,RAD51B,RAD51C,RAD51D,RAD54L",altered,negative,12,psa response,2,38,table 2
+11781744,139,tom,single,mCRPC,prior-AR-directed,enzalutamide + pembrolizumab,background,,,28,psa response,5,38,page 1
+11781745,139,tom,A,mcrpc,prior-AR-directed-therapy,olaparib,"BRCA1,BRCA2",altered,positive,8,RECIST/PCWG3 CR+PR,4,27,table 2
+11781745,139,tom,A,mcrpc,prior-AR-directed-therapy,olaparib,@BRCA2,altered,positive,7,RECIST/PCWG3 CR+PR,3,27,table S1
+11781745,139,tom,A,mcrpc,prior-AR-directed-therapy,olaparib,@BRCA1,altered,positive,1,RECIST/PCWG3 CR+PR,1,27,table S1
+11781746,139,tom,A,mcrpc,prior-AR-directed,olaparib,"BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,97,ctc reduction,29,35,page 2094
+11781746,139,tom,A+B,mcrpc,prior-AR-directed,olaparib,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,243,psa response,73,35,page 2097
+11781746,139,tom,A+B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,67,RECIST/PCWG3 CR+PR,3,35,page 2097
+11781746,139,tom,A+B,mcrpc,prior-AR-directed,olaparib,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,138,RECIST/PCWG3 CR+PR,30,35,page 2097
+11781746,139,tom,A+B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,123,psa response,12,35,page 2097
+11781746,139,tom,A,mcrpc,prior-AR-directed,olaparib,"BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,162,radiographic progression,95,35,table S4
+11781746,139,tom,A+B,mcrpc,prior-AR-directed,olaparib,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,256,radiographic progression,163,35,table S4
+11781746,139,tom,B,mcrpc,prior-AR-directed,olaparib,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,153,ctc reduction,41,35,page 2094
+11781746,139,tom,A+B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,43,RECIST/PCWG3 CR+PR,1,35,page 2094
+11781746,139,tom,A,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,83,radiographic progression,66,35,table S4
+11781746,139,tom,A+B,mcrpc,prior-AR-directed,olaparib,"BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,153,psa response,66,35,page 2094
+11781746,139,tom,A+B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,77,psa response,6,35,page 2094
+11781746,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,68,ctc reduction,7,35,page 2094
+11781746,139,tom,B,mcrpc,prior-AR-directed,olaparib,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,!BRCA2,!BRCA1,!ATM",qualifying or suspected deleterious alteration,positive,94,radiographic progression,68,35,table S4
+11781746,139,tom,A+B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,131,radiographic progression,99,35,table S4
+11781746,139,tom,A,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,44,ctc reduction,5,35,page 2094
+11781746,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,!BRCA2,!BRCA1,!ATM",qualifying or suspected deleterious alteration,positive,48,radiographic progression,33,35,table S4
+11781746,139,tom,A+B,mcrpc,prior-AR-directed,olaparib,"BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,84,RECIST/PCWG3 CR+PR,28,35,page 2094
+11781747,139,tom,A,mCRPC,"prior-taxane,prior_AR_directed",olaparib,"BRCA2,ATM,FANCA,CHEK2,BRCA1,PALB2,HDAC2,RAD51,MLH3,ERCC3,MRE11,NBN",altered,positive,16,ctc reduction,14,21.9,table 2
+11781747,139,tom,A,mCRPC,"prior-taxane,prior_AR_directed",olaparib,"BRCA2,ATM,FANCA,CHEK2,BRCA1,PALB2,HDAC2,RAD51,MLH3,ERCC3,MRE11,NBN",altered,negative,33,RECIST_CR|||RECIST_PR|||psa response|||ctc reduction,2,21.9,table 2
+11781747,139,tom,A,mCRPC,"prior-taxane,prior_AR_directed",olaparib,none specified,NA,,49,RECIST_CR|||RECIST_PR|||psa response|||ctc reduction,16,21.9,page 1697
+11781747,139,tom,A,mCRPC,"prior-taxane,prior_AR_directed",olaparib,none specified,NA,,49,ctc reduction,14,21.9,page 1700
+11781747,139,tom,A,mCRPC,"prior-taxane,prior_AR_directed",olaparib,none specified,NA,,50,death,35,21.9,page 1700
+11781747,139,tom,A,mCRPC,"prior-taxane,prior_AR_directed",olaparib,"BRCA2,ATM,FANCA,CHEK2,BRCA1,PALB2,HDAC2,RAD51,MLH3,ERCC3,MRE11,NBN",altered,positive,16,RECIST_CR|||RECIST_PR|||psa response|||ctc reduction,14,21.9,table 2
+11781747,139,tom,A,mCRPC,"prior-taxane,prior_AR_directed",olaparib,"BRCA2,ATM,FANCA,CHEK2,BRCA1,PALB2,HDAC2,RAD51,MLH3,ERCC3,MRE11,NBN",altered,positive,16,psa response,11,21.9,table 2
+11781747,139,tom,A,mCRPC,"prior-taxane,prior_AR_directed",olaparib,"BRCA2,ATM,FANCA,CHEK2,BRCA1,PALB2,HDAC2,RAD51,MLH3,ERCC3,MRE11,NBN",altered,positive,16,RECIST_PR,6,21.9,table 2
+11781747,139,tom,A,mCRPC,"prior-taxane,prior_AR_directed",olaparib,BRCA2,altered,positive,7,RECIST_CR|||RECIST_PR|||psa response|||ctc reduction,7,21.9,page 1697
+11781747,139,tom,A,mCRPC,"prior-taxane,prior_AR_directed",olaparib,BRCA2,altered,positive,7,psa response,7,21.9,table 2
+11781747,139,tom,A,mCRPC,"prior-taxane,prior_AR_directed",olaparib,none specified,NA,,49,psa response,11,21.9,page 1700
+11781747,139,tom,A,mCRPC,"prior-taxane,prior_AR_directed",olaparib,ATM,altered,positive,5,RECIST_CR|||RECIST_PR|||psa response|||ctc reduction,4,21.9,table 3
+11781748,139,tom,B,mcrpc,"no-prior-taxane,no-prior-AR-directed",enzalutamide,none,NA,,101,psa response,76,2.76,fig 1C
+11781748,139,tom,A,mcrpc,"no-prior-taxane,no-prior-AR-directed",AAP,none,NA,,101,psa response,55,2.76,fig 1C
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,@CDK12,qualifying or suspected deleterious alteration,positive,28,death,18,35,fig S7C
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,"!PPP2R2A,!BRCA1,!BRCA2,!ATM,BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,RAD51B,RAD51C,RAD51D,RAD54L",qualifying or suspected deleterious alteration,positive,88,death,64,35,fig S10A
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,"BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,162,second radiographic progression,77,35,fig S11A
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"@BRCA1,@BRCA2",qualifying or suspected deleterious alteration,positive,32,death,25,35,fig S8A
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,@ATM,qualifying or suspected deleterious alteration,positive,24,death,15,35,fig S7B
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,@ATM,qualifying or suspected deleterious alteration,positive,62,death,39,35,fig S7B
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,@CDK12,qualifying or suspected deleterious alteration,positive,8,death,5,35,fig S8C
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"!BRCA1,!BRCA2,BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,ATM",qualifying or suspected deleterious alteration,positive,73,death,47,35,fig S7A
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,@ATM,qualifying or suspected deleterious alteration,positive,35,death,20,35,fig S8B
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,@CDK12,qualifying or suspected deleterious alteration,positive,15,death,9,35,fig S8C
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,@CDK12,qualifying or suspected deleterious alteration,positive,61,death,47,35,fig S7C
+11781749,139,tom,A+B,mcrpc,prior-AR-directed,olaparib or AAP or Enz|||crossover to olaparib permitted,"BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,245,death,148,35,page 2348
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"!PPP2R2A,BRCA1,BRCA2,ATM,BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,RAD51B,RAD51C,RAD51D,RAD54L",qualifying or suspected deleterious alteration,positive,123,death,83,35,fig S10B
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,83,death,57,35,fig 1A
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,@CDK12,qualifying or suspected deleterious alteration,positive,20,death,13,35,fig S8C
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"@BRCA1,@BRCA2",qualifying or suspected deleterious alteration,positive,20,death,12,35,fig S8A
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,!BRCA2,!BRCA1,!ATM",qualifying or suspected deleterious alteration,positive,94,radiographic progression,74,17,fig S1
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,256,second radiographic progression,128,35,fig S11C
+11781749,139,tom,A+B,mcrpc,prior-AR-directed,olaparib or AAP or Enz|||crossover to olaparib permitted,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,!BRCA2,!BRCA1,!ATM",qualifying or suspected deleterious alteration,positive,142,death,100,35,page 2348
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,!BRCA2,!BRCA1,!ATM",qualifying or suspected deleterious alteration,positive,48,radiographic progression,31,17,fig S1
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,131,second radiographic progression,79,35,fig S11C
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,@ATM,qualifying or suspected deleterious alteration,positive,15,death,12,35,fig S8B
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,@CDK12,qualifying or suspected deleterious alteration,positive,46,death,38,35,fig S8C
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,"!BRCA1,!BRCA2,BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,ATM",qualifying or suspected deleterious alteration,positive,154,death,107,35,fig S7A
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,@ATM,qualifying or suspected deleterious alteration,positive,9,death,3,35,fig S8B
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,"@BRCA1,@BRCA2",qualifying or suspected deleterious alteration,positive,66,death,38,35,fig S8A
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,83,second radiographic progression,47,35,fig S11A
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"!PPP2R2A,!BRCA1,!BRCA2,!ATM,BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,RAD51B,RAD51C,RAD51D,RAD54L",qualifying or suspected deleterious alteration,positive,43,death,29,35,fig S10A
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,@ATM,qualifying or suspected deleterious alteration,positive,27,death,19,35,fig S8B
+11781749,139,tom,A+B,mcrpc,prior-AR-directed,olaparib or AAP or Enz|||crossover to olaparib permitted,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,387,death,248,35,page 2348
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,!BRCA2,!BRCA1,!ATM",qualifying or suspected deleterious alteration,positive,94,death,69,35,fig 2A
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,"@BRCA1,@BRCA2",qualifying or suspected deleterious alteration,positive,23,death,6,35,fig S8A
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,"BRCA2,BRCA1,ATM",qualifying or suspected deleterious alteration,positive,162,death,91,35,fig 1A
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,!BRCA2,!BRCA1,!ATM",qualifying or suspected deleterious alteration,positive,48,death,31,35,fig 2A
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,!BRCA2,!BRCA1,!ATM",qualifying or suspected deleterious alteration,positive,94,second radiographic progression,51,35,fig S11B
+11781749,139,tom,A,mcrpc,prior-AR-directed,olaparib,"!PPP2R2A,BRCA1,BRCA2,ATM,BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,RAD51B,RAD51C,RAD51D,RAD54L",qualifying or suspected deleterious alteration,positive,249,death,155,35,fig S10B
+11781749,139,tom,B,mcrpc,prior-AR-directed,AAP or Enz|||crossover to olaparib permitted,"BRIP1,BARD1,CDK12,CHEK1,CHEK2,FANCL,PALB2,PPP2R2A,RAD51B,RAD51C,RAD51D,RAD54L,!BRCA2,!BRCA1,!ATM",qualifying or suspected deleterious alteration,positive,48,second radiographic progression,32,35,fig S11B
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,PALB2,altered,positive,6,psa response,4,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,PALB2,altered,positive,7,RECIST_CR|||RECIST_PR|||psa response|||ctc reduction,4,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,CDK12,altered,positive,20,psa response,0,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,CDK12,altered,positive,18,radiographic response,0,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,PALB2,altered,positive,6,radiographic response,2,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,none,NA,,92,RECIST_CR|||RECIST_PR|||psa response|||ctc reduction,43,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,"BRCA1,BRCA2",altered,positive,21,radiographic response,11,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,"ARID1A,ATRX,CHEK1,CHEK2,FANCA,FANCF,FANCG,FANCI,FANCM,MSH2,NBN,RAD50,WRN",altered,positive,17,radiographic response,0,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,ATM,altered,positive,12,radiographic response,1,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,none,NA,,70,radiographic response,14,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,ATM,altered,positive,19,psa response,1,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,CDK12,altered,positive,20,RECIST_CR|||RECIST_PR|||psa response|||ctc reduction,5,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,"ARID1A,ATRX,CHEK1,CHEK2,FANCA,FANCF,FANCG,FANCI,FANCM,MSH2,NBN,RAD50,WRN",altered,positive,17,psa response,2,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,none,NA,,89,psa response,30,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,"BRCA1,BRCA2",altered,positive,30,psa response,23,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,"ARID1A,ATRX,CHEK1,CHEK2,FANCA,FANCF,FANCG,FANCI,FANCM,MSH2,NBN,RAD50,WRN",altered,positive,20,RECIST_CR|||RECIST_PR|||psa response|||ctc reduction,4,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,"BRCA1,BRCA2",altered,positive,30,RECIST_CR|||RECIST_PR|||psa response|||ctc reduction,25,36,table 2
+11781750,139,tom,A+B,mcrpc,prior-taxane,olaparib,ATM,altered,positive,19,RECIST_CR|||RECIST_PR|||psa response|||ctc reduction,7,36,table 2
