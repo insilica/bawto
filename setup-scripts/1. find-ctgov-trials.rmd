@@ -18,7 +18,7 @@ library(foreach)
 drv <- dbDriver('PostgreSQL')
 con <- dbConnect(drv, dbname="aact",
                  host="aact-db.ctti-clinicaltrials.org", port=5432,
-                 user="tomlue", password="s2bfr7acdjHJYh3")
+                 user="aact-user", password="your-password")
 
 
 dbGetQuery(con,"select distinct(overall_status) FROM studies")
