@@ -1,0 +1,144 @@
+---
+title: "HRD Biomarkers Prisma Diagram"
+subtitle: "[github.com/insilica/bawto...fig1-prisma.R](https://github.com/insilica/bawto/blob/main/figure-scripts/fig1-prisma.R)"
+date: "`r Sys.time()`"
+output: 
+  rmdformats::readthedown:
+    self_contained: TRUE
+    number_sections: FALSE
+    code_folding: hide
+---
+
+<figure>
+<embed src="http://insilica.co.s3.amazonaws.com/bawto/figures/figure 1.svg" type="image/svg+xml" style="width:100%"/>
+<figcaption>A prisma diagram for...</figcaption>
+</figure>
+
+The above diagram in Frontiers - ... visualizes screening decisions for a document review of prostate cancer clincial trials:  
+1. [sysrev.com/p/63101](https://sysrev.com/u/139/p/63101): screening project for clinicaltrials.gov metadata  
+2. [sysrev.com/p/68027](https://sysrev.com/o/2/p/68027): screening project for pubmed abstracts  
+3. [sysrev.com/p/70431](https://sysrev.com/p/70431): pubmed data extraction project  
+
+The count data is all stored in a named list:  
+```{r results=F,message=F, class.source = 'fold-show'}
+prisma <- readRDS(url("http://insilica.co.s3.amazonaws.com/bawto/prisma.rds"))
+```
+
+The code to generate these counts is in the main analysis notebook at [github.com/insilica/bawto/.../fig1-prisma.Rmd](https://github.com/insilica/bawto/blob/main/figure-scripts/fig1-prisma.R).
+Below the code to generate the figure is given. This code can be easily adapted to other, similar, prisma diagrams
+
+## ClinicalTrials.gov Prisma Diagram:
+```{r, class.source = 'fold-show'}
+clinicaltrials_prisma <- glue::glue(.open="<",.close=">",
+  '
+    subgraph cluster_0 {
+      label="A. ClinicalTrials.gov BAWTO Screen"
+      style=filled;
+      fillcolor=lightgrey;
+      margin=8
+      c_id    [label="Records found   \\non clinicaltrials.gov\\n(n=<prisma$ctgov>)"];
+      c_scr   [label="Records screened\\n(n=<prisma$ctgov>)"];
+      c_excl  [label="Records excluded\\n(n=<prisma$ctgov_excl>)"];
+      c_incl  [label="Records included\\n(n=<prisma$ctgov_incl>)"]
+      c_doc   [label="Related Records \\nidentified\\n(n=<prisma$ctgov_ass>)", fillcolor=darkslategray1, style=filled];
+
+      c_id -> c_scr;
+      c_scr -> c_excl;
+      c_scr -> c_incl;
+      c_incl  -> c_doc;
+    }
+  ')
+
+graph_prisma <- function(text){
+  DiagrammeR::grViz(glue::glue(.open="<",.close=">",
+  'digraph prisma {
+    newrank=true;
+    node [shape="box", fontsize = 12, width=2];
+    graph [compound=true,splines=ortho, nodesep=0.25, rankdir=TB];
+    <text>
+  }'))
+}
+graph_prisma(clinicaltrials_prisma)
+
+```
+
+## Pubmed.gov Prisma
+Center and right prisma diagram code:
+```{r, class.source = 'fold-show'}
+pubmed_prisma <- glue::glue(.open="<",.close=">",'subgraph cluster_1 {
+    label="B. PubMed BAWTO Screen"
+    style=filled;
+    fillcolor=lightgrey;
+    margin=8
+    p_id    [label="Records identified\\non pubmed.gov\\n(n=<prisma$pm>)"];
+    c2_id    [label="Records identified\\nfrom clinicaltrials.gov*\\n(n=<prisma$ctgov_ass>)", fillcolor=darkslategray1, style=filled];
+
+    dedup     [label="Records after\\nduplicates removed\\n(n=<prisma$pm_screen>)",width=3]
+    screening [label="Records screened\\n(n=<prisma$pm_screen>)",width=2]
+    excluded  [label="Records excluded\\n(n=<prisma$pm_excl>)",width=2]
+
+    c2_id -> dedup;
+    p_id  -> dedup;
+    dedup -> screening;
+    screening -> excluded;
+
+    fulltext_scr  [label="full-text articles assessed\\n for eligibility\\n(n=<prisma$fscreen>)"];
+    fulltext_excl [label="Full-text articles excluded\\n (n=<prisma$fexcl>)\\n\\nno data for prostate cancer patients (n=<prisma$no_data_for_prostate_cancer_patients>)\\nno mutation data (n = <prisma$no_mutation_data>)\\nno outcome data (n=<prisma$no_outcome_data>)"];
+    screening -> fulltext_scr;
+    fulltext_scr -> fulltext_excl;
+
+    fulltext_incl [label="studies included in\\nquantitative synthesis\\n(n=<prisma$synthesis>)", fillcolor=lightpink,style=filled];
+    fulltext_scr -> fulltext_incl;
+  }')
+graph_prisma(pubmed_prisma)
+```
+
+## Final prisma diagram code:
+The `prisma_figure` variable includes a few `{rank=same}` calls to move blocks around
+```{r class.source = 'fold-show'}
+final_prisma <- {
+  glue::glue(.open="<",.close=">",
+  'subgraph cluster_2 {
+      label="C. HRD and DRD in mCRPC"
+      margin=8
+
+      other_records [label="studies in conference abstracts\\n and other reviews\\n(n=<prisma$conference>)"];
+      fulltext_incl2 [label="studies included in\\nquantitative synthesis\\n(n=<prisma$synthesis>)", fillcolor=lightpink,style=filled];
+
+      dedup_2 [label = "Records after\\nduplicates removed\\n(n=<prisma$synthesis2>)",width=3]
+      hrd_screen [label="Records Screened\\n(n=<prisma$synthesis2>)"];
+      hrd_excl [label="Records Excluded\\n(n=<prisma$synthesis2-prisma$trial.articles>)\\n\\nNo HRD/DRD biomarkers\\n(n=<prisma$synthesis2-prisma$trial.articles>)"];
+      hrd_incl [label="studies included in\\nquantitative synthesis\\n(n=<prisma$trial.articles>)", fillcolor=lightgoldenrodyellow,style=filled];
+
+      fulltext_incl2 -> dedup_2;
+      other_records -> dedup_2;
+      dedup_2 -> hrd_screen;
+      hrd_screen -> hrd_excl;
+      hrd_screen -> hrd_incl;
+
+      { rank=same; hrd_screen; hrd_excl; }
+    }'
+)}
+
+prisma_figure <- {
+  glue::glue(.open="<",.close=">",
+  'digraph prisma {
+    newrank=true;
+    node [shape="box", fontsize = 12, width=2];
+    graph [compound=true,splines=ortho, nodesep=0.25, rankdir=TB];
+
+    <clinicaltrials_prisma>
+    <pubmed_prisma>
+    <final_prisma>
+
+
+    { rank=same; c_scr; c_excl; }
+    { rank=same; p_id; c2_id;}
+    { rank=same; screening; excluded;}
+    { rank=same; fulltext_scr; fulltext_excl; }
+
+  }')
+}
+
+DiagrammeR::grViz(prisma_figure)
+```

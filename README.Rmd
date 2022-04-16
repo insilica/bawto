@@ -1,0 +1,24 @@
+---
+title: "Biomarkers Associated With Therapeutic Outcomes (BAWTO) In Prostate Cancer"
+subtitle: "[github.com/insilica/bawto](https://github.com/insilica/bawto)"
+date: "`r Sys.time()`"
+output: 
+  rmdformats::readthedown:
+    self_contained: TRUE
+    number_sections: FALSE
+    code_folding: hide
+---
+
+Scripts and gists for creating/analyzing data synthesized from prostate cancer clinical trial publications.
+
+Three sysrev projects were created for this analysis:
+
+  1. [sysrev.com/p/63101](https://sysrev.com/u/139/p/63101): screening project for clinicaltrials.gov metadata
+  2. [sysrev.com/p/68027](https://sysrev.com/o/2/p/68027): screening project for pubmed abstracts 
+  3. [sysrev.com/p/70431](https://sysrev.com/p/70431): pubmed data extraction project
+
+# Fig1 - Prisma Diagram
+<embed src="http://insilica.co.s3.amazonaws.com/bawto/figures/figure 1.svg" type="image/svg+xml" style="width:10%"/>
+Notebook takes you step by step through generation of a prisma diagram in R.
+
+# Fig2 - Timeline
